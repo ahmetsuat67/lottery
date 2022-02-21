@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url(./assets/CXIMrz.png)
+}
+h1{
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    font-size: 72px;
+}
+#luckynum{
+    width: 480px;
+    height: 6vh;
+    font-size: 24px;
+    font-weight: bold; 
+    text-align: center; 
+    border: none;
+   
+}
+#btn{
+    height: 6vh;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-box-shadow: inset -1px 3px 5px 5px #ff8000, 2px 5px 16px 0px #F00, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 5px 5px #ff8000, 2px 5px 16px 0px #F00, 5px 5px 15px 5px rgba(0,0,0,0);
+    background:#F00;
+    color:  #FFF;
+    
+}
+#result {
+    border: 10px solid ;
+    font-size: 2rem;
+    padding:5px;
+    width: 40%;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color: red;
+    background-color: #FFF;
+    margin: 1em auto;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #ff8000, 2px 5px 16px 0px #F00, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #ff8000, 2px 5px 16px 0px #F00, 5px 5px 15px 5px rgba(0,0,0,0);
+}
